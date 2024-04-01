@@ -1,0 +1,42 @@
+{
+    "imgName": "r_04049",
+    "resolution": [
+        384,
+        128
+    ],
+    "datasetName": "benchmark",
+    "subimgType": "right",
+    "cmPerPixel": 1.0,
+    "isOccupied": [
+        1,
+        1
+    ],
+    "points_x": [
+        [
+            46,
+            47,
+            -1,
+            128
+        ],
+        [
+            49,
+            51,
+            -1,
+            128
+        ]
+    ],
+    "points_y": [
+        [
+            44,
+            135,
+            -1,
+            40
+        ],
+        [
+            205,
+            293,
+            -1,
+            203
+        ]
+    ]
+}

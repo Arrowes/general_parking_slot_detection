@@ -1,0 +1,29 @@
+{
+    "isOccupied": [
+        0
+    ],
+    "points_x": [
+        [
+            41,
+            104,
+            -1,
+            72
+        ]
+    ],
+    "points_y": [
+        [
+            254,
+            269,
+            -1,
+            111
+        ]
+    ],
+    "cmPerPixel": 0,
+    "subimgType": "left",
+    "datasetName": "benchmark",
+    "resolution": [
+        384,
+        128
+    ],
+    "imgName": "l_0003_00605"
+}

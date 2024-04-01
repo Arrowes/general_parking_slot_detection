@@ -18,9 +18,10 @@ class AVM:
     def __init__(self, args):
         super().__init__()
         self.video_type = args.video_type
-        self.video_dir = rf'{args.avm_dir}\{args.date}\{args.video_id}'
+        self.video_dir = rf'{args.avm_dir}'
         self.src_video_path = self.video_dir + \
                               rf'\{args.video_id}.{self.video_type}'
+        print(self.src_video_path)
         extract_video_frames = args.new_folder
         generate_input_imgs = args.new_folder
         self.src_frames_dir = self.video_dir + r'\src_frames'

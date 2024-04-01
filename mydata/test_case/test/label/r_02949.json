@@ -1,0 +1,42 @@
+{
+    "imgName": "r_02949",
+    "resolution": [
+        384,
+        128
+    ],
+    "datasetName": "benchmark",
+    "subimgType": "right",
+    "cmPerPixel": 1.0,
+    "isOccupied": [
+        0,
+        0
+    ],
+    "points_x": [
+        [
+            64,
+            61,
+            -1,
+            127
+        ],
+        [
+            59,
+            57,
+            -1,
+            126
+        ]
+    ],
+    "points_y": [
+        [
+            67,
+            157,
+            -1,
+            69
+        ],
+        [
+            201,
+            288,
+            -1,
+            201
+        ]
+    ]
+}

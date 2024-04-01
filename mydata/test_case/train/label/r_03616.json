@@ -1,0 +1,42 @@
+{
+    "imgName": "r_03616",
+    "resolution": [
+        384,
+        128
+    ],
+    "datasetName": "benchmark",
+    "subimgType": "right",
+    "cmPerPixel": 1.0,
+    "isOccupied": [
+        1,
+        1
+    ],
+    "points_x": [
+        [
+            80,
+            80,
+            -1,
+            127
+        ],
+        [
+            79,
+            76,
+            -1,
+            127
+        ]
+    ],
+    "points_y": [
+        [
+            89,
+            179,
+            -1,
+            90
+        ],
+        [
+            223,
+            305,
+            -1,
+            226
+        ]
+    ]
+}

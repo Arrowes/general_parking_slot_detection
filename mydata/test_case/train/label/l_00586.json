@@ -1,0 +1,29 @@
+{
+    "imgName": "l_00586",
+    "resolution": [
+        384,
+        128
+    ],
+    "datasetName": "benchmark",
+    "subimgType": "right",
+    "cmPerPixel": 1.0,
+    "isOccupied": [
+        0
+    ],
+    "points_x": [
+        [
+            71,
+            69,
+            -1,
+            128
+        ]
+    ],
+    "points_y": [
+        [
+            192,
+            273,
+            -1,
+            193
+        ]
+    ]
+}

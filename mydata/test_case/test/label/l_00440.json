@@ -1,0 +1,42 @@
+{
+    "imgName": "l_00440",
+    "resolution": [
+        384,
+        128
+    ],
+    "datasetName": "benchmark",
+    "subimgType": "right",
+    "cmPerPixel": 1.0,
+    "isOccupied": [
+        0,
+        1
+    ],
+    "points_x": [
+        [
+            71,
+            69,
+            -1,
+            128
+        ],
+        [
+            62,
+            62,
+            -1,
+            128
+        ]
+    ],
+    "points_y": [
+        [
+            37,
+            122,
+            -1,
+            35
+        ],
+        [
+            168,
+            255,
+            -1,
+            168
+        ]
+    ]
+}

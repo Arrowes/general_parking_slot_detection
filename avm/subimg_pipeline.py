@@ -18,7 +18,7 @@ class AVM:
         super().__init__()
         self.mode = 'subimg'
         self.video_type = args.video_type
-        self.video_dir = rf'{args.avm_dir}\{args.date}\{args.video_id}'
+        self.video_dir = rf'{args.avm_dir}'
         self.src_video_path = self.video_dir + \
                               rf'\{args.video_id}.{self.video_type}'
         extract_video_frames = args.new_folder

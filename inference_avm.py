@@ -10,17 +10,17 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     args = parser.parse_args()
 
-    args.exp_id = 116
-    args.gpu_used = '0'
+    args.exp_id = 0
+    args.gpu_used = '106'
     args.confid_thresh = 0.5
     args.pth_type = 'best'
     args.save_plotted_img = True
     args.img_show = True
     args.date = '20220424'
-    args.video_id = '0001'
-    args.avm_dir = r'D:\dataset\AVM\videos'
+    args.video_id = 'output'
+    args.avm_dir = r'E:\Desktop\gpsd\general_parking_slot_detection\mydata'
     args.video_type = 'mp4'
     args.new_folder = True
-
-    fullimg_run(args)
-    # subimg_run(args)
+    print(args)
+    #fullimg_run(args)
+    subimg_run(args)
