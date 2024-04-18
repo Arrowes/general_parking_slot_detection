@@ -1,19 +1,15 @@
 {
     "project_name": "AutoParking",
-    "data_dir": "/home/data/lwb/data/ParkingSlot",
+    "data_dir": "mydata",
     "train_data_ratio": [
         [
-            "public",
-            1
-        ],
-        [
-            "in99",
+            "seoul",
             1
         ]
     ],
     "val_data_ratio": [
         [
-            "benchmark",
+            "seoul",
             1
         ]
     ],
@@ -42,13 +38,13 @@
     "learning_rate_new" : false,
     "gamma": 0.995,
     "step_size": 1,
-    "train_batch_size": 64,
-    "eval_batch_size": 64,
-    "num_epochs": 1001,
+    "train_batch_size": 32,
+    "eval_batch_size": 32,
+    "num_epochs": 100,
     "eval_freq": 1,
     "save_summary_steps": 100,
-    "num_workers": 4,
-    "num_workers_eval": 4,
+    "num_workers": 8,
+    "num_workers_eval": 8,
     "gpu_used": "0",
     "input_channel_size": 3,
     "depth_factor": 32,
@@ -78,9 +74,9 @@
     },
     "yolo_act": "relu",
     "in_dim": 1,
-    "yolo_depth": 1,
-    "yolo_width": 1,
-    "head_width": 1,
+    "yolo_depth": 0.5,
+    "yolo_width": 0.25,
+    "head_width": 0.25,
     "fix_expand": false,
     "dwconv": false,
     "expand_ratio": 0.5,

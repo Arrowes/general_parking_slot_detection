@@ -132,6 +132,6 @@ if __name__ == '__main__':
     args.img_show = True
     args.date = '20220419'
     args.video_id = '0002'
-    args.avm_dir = r'D:\dataset\AVM\videos'
+    args.avm_dir = 'mydata/test/images'
 
     subimg_run(args)

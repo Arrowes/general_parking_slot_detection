@@ -54,6 +54,7 @@ parser.add_argument('-tb',
 
 
 def train(manager):
+    print_str=''
 
     # loss status initial
     manager.reset_loss_status()
@@ -157,20 +158,20 @@ if __name__ == '__main__':
     if args.gpu_used != 'default':
         is_continue_training = False
     if is_continue_training:
-        exp_id = 187
+        exp_id = 1
         args.loss_l2_type = ''
-        args.gpu_used = '7'
+        args.gpu_used = '0'
         exp_name = 'parking_slot_detection'
         args.model_dir = f'experiments/{exp_name}/exp_{exp_id}'
         args.tb_path = f'experiments/{exp_name}/tf_log/'
         # args.restore_file = 'yolox_single_scale_model_latest.pth'
         # args.restore_file = 'yolox_single_scale_test_model_best.pth'
         # args.only_weights = False
-        args.restore_file = '581.pth'
+        #args.restore_file = '581.pth'
         # args.only_weights = True
-        args.learning_rate = 5e-7
+        args.learning_rate = 0.001
         args.learning_rate_new = True
-        args.num_epochs = 610
+        args.num_epochs = 500
         # args.train_data_ratio = [["in99", 1]]
 
 
@@ -179,35 +180,35 @@ if __name__ == '__main__':
     # train_without_search_hyperparams = True
     cacl_flop = 0
 
-    if train_without_search_hyperparams == True:
-        exp_id = 173
-        args.gpu_used = '7'
-        exp_name = 'parking_slot_detection'
-        args.model_dir = f'experiments/{exp_name}/exp_{exp_id}'
-        args.tb_path = f'experiments/{exp_name}/tf_log/'
-        args.tb_path += f'{exp_name}_exp_{exp_id}'
-        args.yolo_depth = 1/3
-        args.yolo_width = 0.25
-        # args.yolo_width = 0.5
-        args.head_width = args.yolo_width
-        args.fix_expand = True
-        args.model_type = 'dark'
-        args.upsample_type = 'bilinear'
-        args.dwconv = False
-        args.shift_w_ratio = 0
-        args.shift_h_pixel = 1/12*2
-        args.new_flip_h_ratio = 0
-        args.learning_rate = 0.001
-        args.angle_range = 15
-        args.squared_distance_thresh = 0.005 # big
-        args.occupied_mode = False
-        args.train_batch_size = 8
-        args.num_workers = 2
-        args.eval_freq = 1
-        args.train_data_ratio = [["in99", 1]]
-        args.val_data_ratio = [["benchmark", 1]]
-        args.data_dir = '/home/data/lwb/data/ParkingSlot'
-        cacl_flop = 1
+    # if train_without_search_hyperparams == True:
+    #     exp_id = 173
+    #     args.gpu_used = '7'
+    #     exp_name = 'parking_slot_detection'
+    #     args.model_dir = f'experiments/{exp_name}/exp_{exp_id}'
+    #     args.tb_path = f'experiments/{exp_name}/tf_log/'
+    #     args.tb_path += f'{exp_name}_exp_{exp_id}'
+    #     args.yolo_depth = 1/3
+    #     args.yolo_width = 0.25
+    #     # args.yolo_width = 0.5
+    #     args.head_width = args.yolo_width
+    #     args.fix_expand = True
+    #     args.model_type = 'dark'
+    #     args.upsample_type = 'bilinear'
+    #     args.dwconv = False
+    #     args.shift_w_ratio = 0
+    #     args.shift_h_pixel = 1/12*2
+    #     args.new_flip_h_ratio = 0
+    #     args.learning_rate = 0.001
+    #     args.angle_range = 15
+    #     args.squared_distance_thresh = 0.005 # big
+    #     args.occupied_mode = False
+    #     args.train_batch_size = 8
+    #     args.num_workers = 8
+    #     args.eval_freq = 1
+    #     args.train_data_ratio = [["in99", 1]]
+    #     args.val_data_ratio = [["benchmark", 1]]
+    #     args.data_dir = '/mydata'
+    #     cacl_flop = 1
 
 
     # 有新的字段，放在了默认的json里，需要读出来，以兼容之前的实验

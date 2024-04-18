@@ -1,0 +1,18 @@
+2022-04-22 06:27:42,014 - Output and logs will be saved to /data/lwb/code/slots_free_parking_slot/experiments/parking_slot_detection/exp_106/evaluate.log
+2022-04-22 06:27:42,015 - Creating the dataset...
+2022-04-22 06:27:42,015 - Dataset type: test, transform type: basic
+2022-04-22 06:27:44,894 - Loaded models from: yolox_single_scale_test_model_best.pth
+2022-04-22 06:27:44,895 - Ckpt load: net
+2022-04-22 06:27:44,896 - Starting test
+2022-04-22 06:27:44,898 - dataset: seoul 
+2022-04-22 06:28:01,572 - Loss/valid epoch_test 0: total_loss: 0.078120 | average_precision: 0.984629 | confidence_errors: 0.034160 | position_errors: 0.000130 | sepline_errors: 0.001520 | entryline_errors: 0.000238 | isOccupied_errors: 0.022319 | reg_scores: 0.058367 | reg_scores_core: 0.001889
+2022-04-22 06:28:01,572 - [1m[32mtest Results: total_loss: 0.0781 | average_precision: 0.9846 | confidence_errors: 0.0342 | position_errors: 0.0001 | sepline_errors: 0.0015 | entryline_errors: 0.0002 | isOccupied_errors: 0.0223 | reg_scores: 0.0584 | reg_scores_core: 0.0019[0m
+2022-04-22 06:28:02,228 - Output and logs will be saved to /data/lwb/code/slots_free_parking_slot/experiments/parking_slot_detection/exp_106/evaluate.log
+2022-04-22 06:28:02,228 - Creating the dataset...
+2022-04-22 06:28:02,228 - Dataset type: test, transform type: basic
+2022-04-22 06:28:05,305 - Loaded models from: yolox_single_scale_test_model_best.pth
+2022-04-22 06:28:05,306 - Ckpt load: net
+2022-04-22 06:28:05,307 - Starting test
+2022-04-22 06:28:05,309 - dataset: tongji 
+2022-04-22 06:28:15,392 - Loss/valid epoch_test 0: total_loss: 0.007529 | average_precision: 0.992875 | confidence_errors: 0.022864 | position_errors: 0.000073 | sepline_errors: 0.001085 | entryline_errors: 0.000312 | isOccupied_errors: 0.028922 | reg_scores: 0.053257 | reg_scores_core: 0.001470
+2022-04-22 06:28:15,392 - [1m[32mtest Results: total_loss: 0.0075 | average_precision: 0.9929 | confidence_errors: 0.0229 | position_errors: 0.0001 | sepline_errors: 0.0011 | entryline_errors: 0.0003 | isOccupied_errors: 0.0289 | reg_scores: 0.0533 | reg_scores_core: 0.0015[0m

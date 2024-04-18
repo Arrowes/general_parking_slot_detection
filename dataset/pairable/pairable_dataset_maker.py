@@ -460,8 +460,8 @@ def rename_dir(base_path):
 
 if __name__ == '__main__':
 
-    # base_path = r'D:\dataset\pairable_parking_slot'
-    base_path = r'/data/lwb/pairable_parking_slot'
+    # base_path = r'D:\dataset\mydata'
+    base_path = r'/data/lwb/mydata'
     if 0:
     # if 1:
         print('''\n\t #### This is DatasetMaker for pairable marking point. #### \n''')

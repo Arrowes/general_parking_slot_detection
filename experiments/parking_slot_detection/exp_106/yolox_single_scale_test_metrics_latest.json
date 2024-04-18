@@ -1,0 +1,11 @@
+{
+    "total_loss": 0.007593557476485827,
+    "average_precision": 0.9918304091117034,
+    "confidence_errors": 0.023162207551829572,
+    "position_errors": 7.264760081352771e-05,
+    "sepline_errors": 0.0010612481149097758,
+    "entryline_errors": 0.00032060659962994186,
+    "isOccupied_errors": 0.02861880017753418,
+    "reg_scores": 0.053235510044717,
+    "reg_scores_core": 0.0014545023153532453
+}

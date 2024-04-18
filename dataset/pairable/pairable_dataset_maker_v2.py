@@ -18,7 +18,7 @@ from enum import Enum
 from collections import (namedtuple, OrderedDict)
 
 
-base_path = r'D:\dataset\pairable_parking_slot'
+base_path = r'mydata'
 
 MarkingPoint = namedtuple(
     'MarkingPoint',  # 制作数据集不需要这个
@@ -454,11 +454,11 @@ def prepare_img_list_txt(base_path):
 if __name__ == '__main__':
 
 
-    base_path = r'D:\dataset\pairable_parking_slot'
+    base_path = r'mydata'
     if platform.system() == 'Linux':
-        base_path = r'/data/lwb/pairable_parking_slot'
+        base_path = r'/mydata'
 
-    if 0:
+    if 1:
     # if 1:
         print('''\n\t #### This is DatasetMaker for pairable marking point. #### \n''')
         time.sleep(3)

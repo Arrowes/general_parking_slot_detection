@@ -1,0 +1,12 @@
+2023-10-17 09:39:32,544 - Output and logs will be saved to experiments/parking_slot_detection/exp_1/train.log
+2023-10-17 09:39:33,033 - 
+                ==============================
+                Input  shape: (1, 384, 128)
+                Output shape: (8, 12, 4)
+                Flops: 349.9 M
+                Params: 2.5 M
+                ==============================
+2023-10-17 09:39:38,052 - Loading the train datasets from mydata
+2023-10-17 09:39:38,053 - Dataset type: basic, transform type: basic
+2023-10-17 09:39:38,194 - Starting training for 500 epoch(s)
+2023-10-17 09:39:38,301 - Saved latest checkpoint to: experiments/parking_slot_detection/exp_1/yolox_single_scale_model_latest.pth
